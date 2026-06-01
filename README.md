@@ -1,16 +1,36 @@
 # Maui Event Manager
 
-Uma aplicação multiplataforma para mobile e desktop desenvolvida com **.NET MAUI** para otimizar o cadastro de eventos, controle de cronogramas e análise de custos financeiros.
+Uma aplicação nativa e multiplataforma desenvolvida com **.NET MAUI** voltada para a otimização de fluxos de cadastro de eventos, gestão de cronogramas e análise preditiva de custos operacionais.
 
-## Recursos e Arquitetura
+---
 
-- **Padrão MVVM**: Separação estrita de responsabilidades entre a camada visual (XAML) e a lógica de dados (C#).
-- **Matriz de Custo Dinâmica**: Cálculo em tempo real do orçamento total do evento com base no número de participantes e custos por pessoa.
-- **Cálculo com TimeSpan**: Manipulação estruturada de cronogramas de vários dias utilizando matrizes nativas do `System.DateTime`.
-- **Ciclo de Vida de Navegação**: Persistência de estado da interface do usuário através da injeção tipada do `BindingContext` durante a navegação entre telas.
+## 🛠️ Recursos e Arquitetura
 
-## Tecnologias Utilizadas
+* **Padrão MVVM (Model-View-ViewModel)**: Separação estrita de responsabilidades entre a camada de apresentação (XAML) e as regras de negócio de dados (C#).
+* **Matriz de Custo Dinâmica**: Processamento e cálculo em tempo real do orçamento consolidado do evento com base na densidade de participantes e custos per capita.
+* **Cálculo de Escopo Temporário**: Manipulação estruturada de cronogramas complexos utilizando cálculos com as classes `System.DateTime` e `TimeSpan`.
+* **Gerenciamento de Ciclo de Vida**: Persistência e acoplamento seguro de estados da interface do usuário por meio de injeção direta via `BindingContext` nas rotas de navegação.
 
-- **Framework:** .NET MAUI 10
-- **Linguagem:** C# 13 / XAML
-- **Sistemas Alvo:** Windows Machine (Compilado Nativo), Android, iOS
+---
+
+## Tecnologias e Ambiente
+
+* **Framework:** .NET MAUI 10
+* **Linguagem:** C# 13 / XAML
+* **Arquiteturas Alvo:** Windows Machine (Compilado Nativo), Android API 34+, iOS
+
+---
+
+## Como Executar o Projeto
+
+Para clonar e executar esta aplicação localmente, certifique-se de ter o **.NET SDK 10** instalado e execute os comandos abaixo no terminal:
+
+```bash
+# Clonar o repositório
+git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+
+# Entrar no diretório do projeto
+cd CadastroEventos
+
+# Compilar e executar na plataforma Windows
+dotnet run -f net10.0-windows10.0.19041.0
