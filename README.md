@@ -27,7 +27,7 @@ Para clonar e executar esta aplicação localmente, certifique-se de ter o **.NE
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+git clone [https://github.com/gabriellyleitedev.git](https://github.com/gabriellyleitedev.git)
 
 # Entrar no diretório do projeto
 cd CadastroEventos
